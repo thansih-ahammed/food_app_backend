@@ -53,7 +53,7 @@ def singleFood(request, pk):
     
 
 @api_view(["POST"])
-# @permission_classes([IsAuthenticated])
+  # @permission_classes([IsAuthenticated])
 def create(request):
     serializer = FoodSerializer(data=request.data)
         
